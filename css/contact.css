@@ -1,0 +1,366 @@
+body {
+	width: 1024px;
+	height: auto;
+	margin: auto;
+}
+
+#wrapper {
+	width: 960px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	float: left;
+	width: 250px;
+	color: white;
+	padding: 4px;
+	display: block;
+	margin: 10px 0px 0px 50px;
+	text-align: center;
+	font-family: georgia;
+	font-size: 14px;
+}
+
+.menu {
+	float: right;
+	margin: 30px 0px 0px 20px;
+	padding-left: 10px;
+	overflow: hidden;	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #5e5e5e;
+
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+
+}
+
+#border1 {
+	display: block;
+	background-color: black;
+	height: 2px;
+	width: 960px;
+}
+
+#mainarea {
+	position: relative;
+	width: 960px;
+	height: 580px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+}
+
+h2 {
+	color:#4aaaa5;
+	font-family: georgia;
+	text-indent: 25px;
+}
+
+
+.aboutme {
+	width: 350px;
+	margin: 25px;
+	line-height: 140%;
+
+}
+
+.line1 {
+    display: block;
+    width: 400px;
+    height: 2.5px;
+    background-color: #D3D3D3;
+}
+
+.largebox {
+	position: absolute;
+	width: 440px;
+	height: 460px;
+	background-color: white;
+}
+
+.largebox {
+	margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 110px;
+}
+
+.form {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.smallbox {
+	position: absolute;
+	width: 250px;
+	height: 160px;
+	background-color: white;
+}
+
+h3 {
+	color:#4aaaa5;
+	font-family: georgia;
+}
+
+.line2 {
+    display: block;
+    width: 200px;
+    height: 1.5px;
+    background-color: #D3D3D3;
+}
+
+.table1 {
+	margin-top: 20px;
+}
+
+.github {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.linkedin {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.overflow {
+	height: 50px;
+	width: 50px;
+}
+
+.smallbox {
+	margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 580px;
+}
+
+#border2 {
+	display: block;
+	background-color: #4aaaa5;
+	height: 4px;
+	width: 960px;
+}
+
+#footer {
+	display: block;
+	background-color: #666666;
+	height: 75px;
+	width: 960px;
+	color: white;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px; 
+}
+
+@media screen and (max-width: 980px) {
+
+#wrapper {
+	width: 768px;
+	height: auto;
+	vertical-align: center;
+	border-style: 1px;
+}
+
+#mainarea {
+	width: 768px;
+	height: 655px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+}
+
+	.largebox {
+		width: 350px;
+		height: 550px;
+		margin-left: 60px;
+	}
+
+
+.smallbox {
+    margin-left: 450px;
+}
+
+	.logo {
+	margin-left: 60px;
+	}
+
+	#border1 {
+		width: 768px;
+	}
+
+	.line1 {
+	    width: 300px;
+	}
+
+	.line2 {
+	    width: 170px;
+	}
+
+	#footer {
+		width: 768px;
+	}
+
+	#border2 {
+	width: 768px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+#wrapper {
+	width: 640px;
+	height: auto;
+	vertical-align: center;
+	border-style: 1px;
+}
+
+#mainarea {
+	width: 640px;
+	height: 720px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+}
+
+	.largebox {
+		width: 550px;
+		height: 450px;
+		margin-left: 45px;
+	}
+
+.smallbox {
+    margin-top: 520px;
+    width: 550px;
+    margin-left: 45px;
+	}
+
+	.logo {
+	margin-left: 40px;
+	}
+
+	#border1 {
+		width: 640px;
+	}
+
+	.line1 {
+	    width: 500px;
+	}
+
+	.line2 {
+	    width: 500px;
+	}
+
+	#footer {
+		width: 640px;
+	}
+
+	#border2 {
+	width: 640px;
+}
+
+h3 {
+	margin-right: 320px;
+}
+
+
+.table1 {
+	margin-right: 320px;
+
+}
+	
+	}
+
+@media screen and (max-width: 640px) {
+
+	#wrapper {
+	width: 500px;
+	height: auto;
+	vertical-align: center;
+	border-style: 1px;
+	}
+
+	#mainarea {
+	width: 500px;
+	height: 980px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+	}
+
+	.largebox {
+		width: 410px;
+		height: 700px;
+		margin-left: 45px;
+	}
+
+.smallbox {
+    margin-top: 780px;
+    width: 410px;
+    margin-left: 45px;
+	}
+
+	.logo {
+	margin-left: 0px;
+	width: 500px;
+	}
+
+	#border1 {
+		width: 500px;
+	}
+
+	.line1 {
+	    width: 355px;
+	}
+
+	.line2 {
+	    width: 355px;
+	}
+
+	#footer {
+		width: 500px;
+	}
+
+	#border2 {
+	width: 500px;
+}
+
+h3 {
+	margin-right: 200px;
+}
+
+
+.table1 {
+	margin-right: 200px;
+
+}
+
+.menu {
+	margin-right: 115px;
+	margin-top: 0px;
+
+}
+
+}
+

@@ -1,0 +1,763 @@
+body {
+	width: 1024px;
+	height: auto;
+	margin: auto;
+}
+
+#wrapper {
+	width: 960px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	float: left;
+	width: 220px;
+	color: white;
+	padding: 2px;
+	display: block;
+	margin: 10px 0px 0px 50px;
+	text-align: center;
+	font-family: georgia;
+	font-size: 14px;
+}
+
+.menu {
+	float: right;
+	margin: 30px 0px 0px 20px;
+	padding-left: 10px;
+	overflow: hidden;	
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-weight: bolder;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    color: #5e5e5e;
+
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+
+}
+
+#border1 {
+	display: block;
+	background-color: black;
+	height: 2px;
+	width: 960px;
+}
+
+#mainarea {
+	position: relative;
+	width: 960px;
+	height: 700px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+}
+
+h2 {
+	color:#4aaaa5;
+	font-family: georgia;
+	text-indent: 25px;
+}
+
+
+.aboutme {
+	width: 350px;
+	margin: 25px;
+	line-height: 140%;
+
+}
+
+.line1 {
+    display: block;
+    width: 400px;
+    height: 2.5px;
+ 	background-color: #D3D3D3;
+}
+
+.porttable {
+	margin-top: 30px;
+	margin-left: 20px;	
+}
+
+.websites {
+	height: 130px;
+	width: 180px;
+}
+
+.apps {
+	height: 130px;
+	width: 180px;
+}
+
+.javascript {
+	height: 130px;
+	width: 180px;
+	margin-top: 30px;
+
+}
+
+.games {
+	height: 130px;
+	width: 180px;
+	margin-top: 30px;
+
+}
+
+.other {
+	height: 130px;
+	width: 180px;
+	margin-top: 30px;
+}
+
+.largebox {
+	position: absolute;
+	width: 440px;
+	height: 620px;
+	background-color: white;
+}
+
+.largebox {
+	margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 110px;
+}
+
+/*I broke the code - continue here*/
+.onpic1 {
+	position: relative;
+}
+
+.onpic2 {
+	position: relative;
+}
+
+.onpic3 {
+	position: relative;
+}
+
+.onpic4 {
+	position: relative;
+}
+
+.onpic5 {
+	position: relative;
+}
+
+.java1 {
+	background-color: #4aaaa5;
+	width: 181px;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	line-height: 30px; 
+	color: white;
+	margin-top: 110px;
+}
+
+
+.games1 {
+	background-color: #4aaaa5;
+	width: 181px;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	line-height: 30px; 
+	color: white;
+	margin-top: 110px;
+
+}
+
+.other1 {
+	background-color: #4aaaa5;
+	width: 181px;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	line-height: 30px; 
+	color: white;
+	margin-top: 110px;
+
+}
+
+.apps1 {
+	background-color: #4aaaa5;
+	width: 181px;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	line-height: 30px; 
+	color: white;
+	margin-top: 80px;
+
+}
+
+.web {
+	background-color: #4aaaa5;
+	width: 181px;
+	height: 30px;
+	margin-top: 80px;
+	position: absolute;
+	text-align: center;
+	line-height: 30px; 
+	color: white;
+}
+
+.smallbox {
+	position: absolute;
+	width: 250px;
+	height: 160px;
+	background-color: white;
+}
+
+h3 {
+	color:#4aaaa5;
+	font-family: georgia;
+}
+
+.line2 {
+    display: block;
+    width: 200px;
+    height: 1.5px;
+    background-color: #D3D3D3;
+}
+
+.table1 {
+	margin-top: 20px;
+}
+
+.github {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.linkedin {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.overflow {
+	height: 50px;
+	width: 50px;
+}
+
+.smallbox {
+	margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 580px;
+}
+
+#border2 {
+	display: block;
+	background-color: #4aaaa5;
+	height: 4px;
+	width: 960px;
+}
+
+#footer {
+	display: block;
+	background-color: #666666;
+	height: 75px;
+	width: 960px;
+	color: white;
+}
+
+#footer {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px; 
+}
+
+@media screen and (max-width: 980px) {
+	
+	#wrapper {
+	width: 768px;
+	height: auto;
+	vertical-align: center;
+	border-style: 1px;
+}
+
+#mainarea {
+	width: 768px;
+	height: 1500px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+}
+
+	.largebox {
+		width: 350px;
+		height: 1400px;
+		margin-left: 60px;
+	}
+
+	.smallbox {
+    margin-left: 450px;
+}
+
+	.table1{
+		
+	}
+ 
+	.github {
+	margin-right: 130px;
+}
+
+	.linkedin {
+	margin-bottom: 60px;
+	margin-right: 5px;
+	margin-top: -55px;
+}
+
+	.overflow {
+	margin-bottom: 100px;
+	margin-left: 130px;
+	margin-top: -116px;
+		}
+
+	.porttable {
+		width: 65%;
+	}
+
+	.logo {
+	margin-left: 60px;
+	}
+
+	#border1 {
+		width: 768px;
+	}
+
+	.line1 {
+	    width: 300px;
+	}
+
+	.line2 {
+	    width: 170px;
+	}
+
+	#footer {
+		width: 768px;
+	}
+
+	#border2 {
+		width: 768px;
+	}
+
+/*Disabled table*/
+	table, thead, tbody, th, td, tr { 
+	display: block; 
+	}
+
+	.onpic1 {
+	height: 250px;
+	}
+
+	.websites {
+	width: 300px;
+	height: 220px;
+	}
+
+	.web {
+	width: 281px;
+	margin-top: 160px;
+	padding: 10px;
+}
+
+.onpic2 {
+	height: 250px;
+	}
+
+	.apps {
+	width: 300px;
+	height: 220px;
+	}
+
+	.apps1 {
+	width: 281px;
+	margin-top: 160px;
+	padding: 10px;
+}
+
+
+	.onpic3 {
+	height: 250px;
+	}
+
+	.games {
+	width: 300px;
+	height: 220px;
+	margin-top: -5px;
+	}
+
+	.games1 {
+	width: 281px;
+	margin-top: 155px;
+	padding: 10px;
+}
+
+	.onpic4 {
+	height: 250px;
+	}
+
+	.javascript {
+	width: 300px;
+	height: 220px;
+	margin-top: -1px;
+	}
+
+	.java1 {
+	width: 281px;
+	margin-top: 160px;
+	padding: 10px;
+}
+
+	.onpic5 {
+	height: 250px;
+	}
+
+	.other {
+	width: 300px;
+	height: 220px;
+	margin-top: -5px;
+	}
+
+	.other1 {
+	width: 281px;
+	margin-top: 155px;
+	padding: 10px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	#wrapper {
+	width: 640px;
+	height: auto;
+	vertical-align: center;
+	border-style: 1px;
+}
+
+#mainarea {
+	width: 640px;
+	height: 1000px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+}
+
+	.largebox {
+		width: 570px;
+		height: 700px;
+		margin-left: 35px;
+	}
+
+
+	.logo {
+	margin-left: 60px;
+	}
+
+	#border1 {
+		width: 640px;
+	}
+
+	.line1 {
+	    width: 520px;
+	}
+
+	.line2 {
+	    width: 520px;
+	}
+
+	#footer {
+		width: 640px;
+	}
+
+	#border2 {
+		width: 640px;
+	}
+
+	.smallbox {
+    margin-top: 780px;
+    width: 570px;
+    margin-left: 35px;
+	}
+
+h3 {
+	margin-right: 350px;
+}
+
+
+.table1 {
+	margin-right: 350px;
+
+}
+
+	table, thead, tbody, th, td, tr { 
+	display: block; 
+	}
+
+	.websites {
+	width: 240px;
+	height: 160px;
+	}
+
+	.web {
+	width: 221px;
+	margin-top: 100px;
+	padding: 10px;
+}
+
+
+	.apps {
+	width: 240px;
+	height: 160px;
+	margin-left: 280px;
+	margin-top: -252px;
+	margin-bottom: 510px;
+	}
+
+	.apps1 {
+	width: 221px;
+	margin-top: 60px;
+	padding: 10px;
+	margin-top: -150px;
+	margin-left: 280px;
+
+}
+
+	.games {
+	width: 240px;
+	height: 160px;
+	margin-left: 280px;
+	margin-top: -560px;
+	margin-bottom: 505px;
+	}
+
+	.games1 {
+	width: 221px;
+	margin-left: 280px;
+	margin-top: -460px;
+	margin-bottom: 505px;
+	padding: 10px;
+}
+
+
+	.javascript {
+	width: 240px;
+	height: 160px;
+	margin-top: -500px;
+	margin-bottom: 160px;
+	}
+
+	.java1 {
+	width: 221px;
+	margin-top: -207px;
+	margin-bottom: 160px;
+	padding: 10px;
+}
+
+
+	.other {
+	width: 240px;
+	height: 160px;
+	margin-top: -620px;
+	margin-bottom: 505px;
+
+	}
+
+	.other1 {
+	width: 221px;
+	margin-top: 155px;
+	padding: 10px;
+	margin-top: -525px;
+	margin-bottom: 505px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	#wrapper {
+	width: 500px;
+	height: auto;
+	vertical-align: center;
+	border-style: 1px;
+	}
+
+	#mainarea {
+	width: 500px;
+	height: 2400px;
+	background-image: url("../images/mochaGrunge_@2X.png");
+	}
+
+	.largebox {
+		width: 470px;
+		height: 2100px;
+		margin-left: 15px;
+	}
+
+	.logo {
+	margin-left: 0px;
+	width: 500px;
+	}
+
+	#border1 {
+		width: 500px;
+	}
+
+	.line1 {
+	    width: 420px;
+	}
+
+	.line2 {
+	    width: 400px;
+	}
+
+	#footer {
+		width: 500px;
+	}
+
+	#border2 {
+	width: 500px;
+
+	}
+
+	table, thead, tbody, th, td, tr { 
+	display: block; 
+	}
+
+	.onpic1 {
+	height: 250px;
+	}
+
+	.websites {
+	width: 420px;
+	height: 340px;
+	}
+
+	.web {
+	width: 401px;
+	margin-top: 250px;
+	padding: 10px;
+}
+
+.onpic2 {
+	height: 250px;
+	}
+
+	.apps {
+	width: 420px;
+	height: 340px;
+	margin-top: 150px;
+	margin-left: -4px;
+	}
+
+	.apps1 {
+	width: 401px;
+	margin-top: 405px;
+	margin-left: -4px;
+	padding: 10px;
+}
+
+
+	.onpic3 {
+	height: 250px;
+	}
+
+	.games {
+	width: 420px;
+	height: 340px;
+	margin-top: 45px;
+	margin-left: -5px;
+	}
+
+	.games1 {
+	width: 401px;
+	margin-top: 305px;
+	padding: 10px;
+	margin-left: -4px;
+}
+
+	.onpic4 {
+	height: 250px;
+	}
+
+	.javascript {
+	width: 420px;
+	height: 340px;
+	margin-top: 695px;
+	margin-left: -8px;
+	}
+
+	.java1 {
+	width: 401px;
+	margin-top: 950px;
+	margin-left: -8px;
+	padding: 10px;
+}
+
+	.onpic5 {
+	height: 250px;
+	}
+
+	.other {
+	width: 420px;
+	height: 340px;
+	margin-top: 580px;
+	margin-left: -8px;
+	}
+
+	.other1 {
+	width: 401px;
+	margin-top: 830px;
+	padding: 10px;
+	margin-left: -8px;
+}
+
+.smallbox {
+	margin-top: 2170px;
+	width: 470px;
+	margin-left: 15px;
+}
+
+h3 { 
+	margin-left: 15px;
+	width: 200px;
+ }
+
+.github {
+	margin-left: 20px;
+}
+.linkedin {
+	margin-left: 75px;
+}
+
+
+.menu {
+	margin-right: 120px;
+	margin-top: 0px;
+}
